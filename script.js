@@ -1,3 +1,16 @@
+
+
+        $(document).ready(()=>{
+            $('#serachForm').on('submit',(e) =>{
+                let searchText = ($('#searchText').val());
+                findMovies(searchText);
+        
+                e.preventDefault();
+            })
+        })
+        document.getElementById('getText').addEventListener('click',getText);
+        
+
 function findMovies(searchText){
     fetch('http://www.omdbapi.com/?apikey=7786aefd&s='+searchText)
     .then((response) =>  
