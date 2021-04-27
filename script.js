@@ -12,7 +12,7 @@
         
 
 function findMovies(searchText){
-    fetch('http://www.omdbapi.com/?apikey=7786aefd&s='+searchText)
+    fetch('http://www.omdbapi.com/?apikey=230e6d60&s='+searchText)
     .then((response) =>  
         response.json()
         
