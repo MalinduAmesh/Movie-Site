@@ -50,27 +50,88 @@ sessionStorage.setItem('movieID',id);
 window.location = 'main.html';
 return false;
 }
+
+
+
+ 
+
 function getMovie(){
 
 let movieID =sessionStorage.getItem('movieID');
 
 fetch('http://www.omdbapi.com/?apikey=230e6d60&i='+movieID)
-.then((response) =>{  response.json()
-console.log(response);
+
+.then((response) => {
+    response.json()
+    let imdb =response.data;
+
+    console.log(imdb)
 
 
-let movie = response.data;
 
-console.log(movie)
-// let output =`
-
-// <div class="row">
-// <div>
-// <img src= "${movie.Poster}" class="thumbnail>
-
-// </div>
-// </div>
-
-// `;
 })
+
+
+
+
+
+// .then((data) =>{
+
+//     let outpput1 =' <h2>  API</h2>';
+
+//     let cost = data;
+//     (cost).forEach((imdb)=>{
+//         outpput1 +=`
+
+//         <div class="row">
+//         <h3>${imdb.Actors} </h3>
+//         </div>
+//         `;
+//     });
+
+//     document.getElementById('movie').innerHTML = outpput1;
+
+// });
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 }
+
+
+// Actors: "Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard"
+// Awards: "Nominated for 2 Oscars. Another 11 wins & 4 nominations."
+// BoxOffice: "$285,761,243"
+// Country: "USA"
+// DVD: "25 Nov 2015"
+// Director: "Chris Columbus"
+// Genre: "Comedy, Family"
+// Language: "English"
+// Metascore: "63"
+// Plot: "An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation."
+// Poster: "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+// Production: "20th Century Fox, Hughes Entertainment"
+// Rated: "PG"
+// Ratings: (3) [{…}, {…}, {…}]
+// Released: "16 Nov 1990"
+// Response: "True"
+// Runtime: "103 min"
+// Title: "Home Alone"
+// Type: "movie"
+// Website: "N/A"
+// Writer: "John Hughes"
+// Year: "1990"
+// imdbID: "tt0099785"
+// imdbRating: "7.6"
+// imdbVotes: "494,710"
