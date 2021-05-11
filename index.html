@@ -1,392 +1,101 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gem City Exports</title>
-    <meta content="width=device-width intial-scale=1" name="viewport">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
-    <!-- Boostrap -->
-    <link rel="stylesheet" href="bootstrap.css">
-
-    <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <section class="landingPage">
-                <!------------------------------------------------ Nav Bar Start  -------------------------------------------------->
-    <nav class="navBar">
-        <div class="brand-logo"><img src="logo transparent high resolution.png" alt="logo"></div>
-        <div class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <div class="navBar-links">
-        <ul class="navUl">
-            
-            <li><a href="#home">HOME</a> </li>
-            <li><a href="#about">ABOUT</a> </li>
-            <li><a href="#myworks">OUR PRODUCTS</a></li>
-            <li><a href="#contact">CONTACT US</a> </li> 
+    
+    <section class="LandingPage" id="laded">
 
-        </ul>
-    </div>
-    </nav>
+        <div >
 
-    <div class="owl-carousel owl-theme">
-        <div class="slide slide-1">
-            <div class="slide-content">
-                <h1>Welcome</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
-               
-            </div>
-        </div>
-        <div class="slide slide-2">
-            <div class="slide-content">
-                <h1>Gem City Exports</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
-               
-            </div>
-        </div>
-        <div class="slide slide-3">
-            <div class="slide-content">
-                <h1>Welcome</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In voluptas eaque nobis ducimus voluptate molestiae corporis mollitia atque totam eligendi voluptatem vitae, quibusdam, vero delectus repudiandae tempore sint officiis odio.</p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="AboutMe">
-
-    <div class="aboutMeTo">
-        <div class="aboutme-Topic">
-            <h4>Gem City Exports Company </h4>
-        </div>
-        <div class="aboutme-Topic-tag">
-            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+            <h2 class="Land-Topic">Movies Info</h2>
+            <form id="serachForm">
+                <input type="text" placeholder="Search Your Movie" id="searchText">
+                <button id="getText">Get Text</button>
+            </form>
+        
+        
         </div>
 
-        <div class="aboutMe-P">
-            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  It has survived not only five centuries, but also the leap into electronic typesetting,
-                   remaining essentially unchanged. It was popularised in the 1960s with the release
-                    of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
+        <div class="container">
+            <div id="movies">   </div>
         </div>
-    </div>
+
+
 
     </section>
 
-    
-    <section class="item-Slider">
-        <div class="item-cart-Topics"> <h1>Our Products</h1></div>    
-        <div class="bar1"></div>
-        <div class="square1"></div>
-        <h2>Organic Spices</h2>
-          
-        <div class=" slider owl-carousel">
-            <div class="card">
-              <div class="img">
-      <img src="Assets/1.png" alt=""></div>
-      <div class="content">
-                <div class="title">
-                    Ceylon cinnamon</div>
-      <div class="sub-title">
-      </div>
-      <p>
-     </p>
-      <div class="btn">
-                  <button> <a class="nav-link ml-5" href=""> </a>Read more</button>
-                </div>
-      </div>
-      </div>
-      <div class="card">
-              <div class="img">
-      <img src="Assets/2.png" alt=""></div>
-      <div class="content">
-                <div class="title">
-                    Organic pepper</div>
-      <div class="sub-title">
-      </div>
-      <p>
-       </p>
-      <div class="btn">
-                  <button><a class="nav-link ml-5" href=""></a>Read more</button>
-                </div>
-      </div>
-      </div>
-      <div class="card">
-        <div class="img">
-<img src="Assets/3.png" alt=""></div>
-<div class="content">
-          <div class="title">
-            White pepper</div>
-<div class="sub-title">
-</div>
-<p>
-</p>
-<div class="btn">
-            <button> <a class="nav-link ml-5" href=""></a>Read more</button>
-          </div>
-</div>
-</div>
-<div class="card">
-    <div class="img">
-<img src="Assets/4.png" alt=""></div>
-<div class="content">
-      <div class="title">
-        Organic cloves</div>
-<div class="sub-title">
-</div>
-<p>
- </p>
-<div class="btn">
-        <button><a class="nav-link ml-5" href="Cloves.html"></a>Read more</button>
-      </div>
-</div>
-</div>
-<div class="card">
-    <div class="img">
-<img src="Assets/5.png" alt=""></div>
-<div class="content">
-      <div class="title">
-        Organic turmeric</div>
-<div class="sub-title">
-</div>
-<p>
-</p>
-<div class="btn">
-        <button>Read more</button>
-      </div>
-</div>
-</div>
-      <div class="card">
-              <div class="img">
-      <img src="Assets/6.png" alt=""></div>
-      <div class="content">
-                <div class="title">
-                    Organic Vanila</div>
-      <div class="sub-title">
-      </div>
-      <p>
-      </p>
-      <div class="btn">
-                  <button> <a class="nav-link ml-5" href=""></a>Read more</button>
-                </div>
-      </div>
-      </div>
-      </div>
 
-
-
-
-</section>
-<section class="Item-Cart2">
-    <h2></h2>
-      
-    <div class=" slider owl-carousel">
-        <div class="card">
-          <div class="img">
-  <img src="Assets/7.png" alt=""></div>
-  <div class="content">
-            <div class="title">
-                Organic coconut water</div>
-  <div class="sub-title">
-  </div>
-  <p>
-  </p>
-  <div class="btn">
-              <button> <a class="nav-link ml-5" href="King- coconut.html"></a>Read more</button>
-            </div>
-
-
-
-  </div>
-  </div>
-  <div class="card">
-    <div class="img">
-<img src="Assets/7.png" alt=""></div>
-<div class="content">
-      <div class="title">
-        Coffee</div>
-<div class="sub-title">
-</div>
-<p>
-</p>
-<div class="btn">
-        <button> <a class="nav-link ml-5" href="Coffee.html"></a>Read more</button>
-      </div>
-</div>
-</div>
-<div class="card">
-    <div class="img">
-<img src="Assets/7.png" alt=""></div>
-<div class="content">
-      <div class="title">
-        Ginger powder</div>
-<div class="sub-title">
-</div>
-<p>
-</p>
-<div class="btn">
-        <button> <a class="nav-link ml-5" href="Ginger powder.html"></a>Read more</button>
-      </div>
-</div>
-</div>
-<div class="card">
-    <div class="img">
-<img src="Assets/7.png" alt=""></div>
-<div class="content">
-      <div class="title">
-        Garcinia cambogia</div>
-<div class="sub-title">
-</div>
-<p>
-</p>
-<div class="btn">
-        <button> <a class="nav-link ml-5" href="Garcinia cambogia.html"></a>Read more</button>
-      </div>
-</div>
-</div>
-  
-  </div> 
-  </section>  
-  <section id="contact" class="Contact-Us">
-	<!--socail----------->
-	<div class="social">
-	<!--icons--------->
-	<a href="#"><i class="fab fa-facebook-f"></i></a>
-	<a href="#"><i class="fab fa-twitter"></i></a>
-	<a href="#"><i class="fab fa-instagram"></i></a>
-	<a href="#"><i class="fab fa-dribbble"></i></a>
-	<a href="#"><i class="fab fa-behance"></i></a>
-		
-	</div>
-	<!--contact-box------------->
-	<div class="contact-box">
-	<!--heading---------->
-	<div class="c-heading">
-	<h1>Get In Touch</h1>
-	<p>Call Or Email Us Regarding Question Or Issues</p>
-	</div>
-	<!--inputs------------------>
-	<div class="c-inputs">
-	<form>
-	<input type="text" placeholder="Full Name"/>	
-	<input type="email" placeholder="Example@gmail.com"/>
-	<textarea name="message" placeholder="Write Message"></textarea>
-	<!--sumbit-btn----------->
-	<button>SEND</button>
-	</form>
-	</div>
-		
-	</div>
-	<!--map------------------->
-	<div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.9949809502027!2d80.6990891146046!3d6.6475422235535495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3f3471068cd2b%3A0xd6c892df675f717a!2sBalangoda%20Clock%20Tower%2C%20Balangoda!5e0!3m2!1sen!2slk!4v1618305091967!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-	</div>
-	</section>
-
-
-
-
-    <footer class="footer-t1">
-<div class="bar">
-    <div class="Company-Name"><h2>    Gem City Export © Copyright 2020 All Rights Resvered. <br> Web Design By AUTUMN FOX</h2></div>
-    <div class="design-By"><h1></h1></div>
-</div>
-
-    </footer>
-    <!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!-- Custom Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
     <script>
-    const toggleButton  = document.getElementsByClassName('toggle-button')[0]
-    const navbarLink  = document.getElementsByClassName('navBar-links')[0]
-
-    toggleButton.addEventListener('click',()=>{
-    navbarLink.classList.toggle('active')
-    })
 
 
-         $(document).ready(function () {
-            $(".owl-carousel").owlCarousel({
-                items:1,
-                loop:true,
-                nav:true,
-                dots:true,
-                autoplay:true,
-                autoplaySpeed:1000,
-                smartSpeed:1500,
-                autoplayHoverPause:true
-            });
-        });
+    
+// axios.get('http://www.omdbapi.com/?apikey=7786aefd&s='+searchText)
+    // .then((response) =>{
+    //     console.log(response)
+    //     let movies =response.data.Search;
+    //     let output ='';
+
+    //     $.each(movies,(index,movie) =>{
+    //         output += `
+    //         <div >
+    //            <img src= "${movie.Poster}">
+               
+    //             <h1>${movie.Title} </h1>
+    //             <h2>${movie.Year} </h2>
+    //             </div>`;
+    //     });
+    //     $('#movies').html(output)
+    // })
+    // .catch((err)=>{
+    //     console.log(err);
+    // })
+// }
+    
+    // fetch('http://www.omdbapi.com/?apikey=230e6d60&s='+searchText)
+    // .then((response) => 
+    //     response.json())
 
 
-        $(".slider").owlCarousel({
-    loop: true,
-    items:4,
-    autoplay: true,
-    autoplayTimeout: 2000, //2000ms = 2s;
-    autoplayHoverPause: true,
-    responsive : {
-        // breakpoint from 0 up
-        0: {
-            items: 2,
-            mouseDrag:true,
-            touchDrag:true
-        },
-        // breakpoint from 480 up
-        500: {
-            items: 2,
-            mouseDrag:true,
-            touchDrag:true
-        },
-        // breakpoint from 768 up
-        740: {
-            items: 3,
-            mouseDrag:true,
-            touchDrag:true
-        },
-        // breakpoint from 1024 up
-        980: {
-            items: 4,
-            mouseDrag:false,
-            touchDrag:false
-        }
-    }
-  });
-  $(".btn").click(function(){
-  $("input[type='text'], textarea").val("");
-});
+    //     .then((data) =>{
+    //         let outpu ='<h1>Posts</h1> ';
+
+    //         data.forEach(function(post){
+    //             outpu +=`
+                 
+    //             `;
+    //         })
+    //         // document.getElementById('movies').innerHTML =outpu;
+    //     });
+    
+        // const response = await  fetch('http://www.omdbapi.com/?apikey=7786aefd&s='+searchText)
+        // // .then((response) => response.json())
+      
+        // const data = await response.json();
+      
+        // document.getElementById('movies').innerHTML = '';
+      
+        // console.log(data)
+
+        // data.forEach( function(element) {
+        //     document.getElementById('movies').innerHTML += `
+        //     <div>
+        //         <h2>${movie.Title} </h2>
+
+        //     </div>
+        //     `;
+        // });
+
+      
+
     </script>
-
 </body>
-
 </html>
